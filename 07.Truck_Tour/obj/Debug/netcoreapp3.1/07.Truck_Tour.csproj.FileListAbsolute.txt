@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/bin/Debug/netcoreapp3.1/07.Truck_Tour.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/bin/Debug/netcoreapp3.1/07.Truck_Tour.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/bin/Debug/netcoreapp3.1/07.Truck_Tour.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/bin/Debug/netcoreapp3.1/07.Truck_Tour.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/bin/Debug/netcoreapp3.1/07.Truck_Tour.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/Debug/netcoreapp3.1/07.Truck_Tour.genruntimeconfig.cache
