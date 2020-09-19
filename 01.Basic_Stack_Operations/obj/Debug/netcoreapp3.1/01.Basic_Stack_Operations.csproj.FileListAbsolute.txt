@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/bin/Debug/netcoreapp3.1/01.Basic_Stack_Operations.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/bin/Debug/netcoreapp3.1/01.Basic_Stack_Operations.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/bin/Debug/netcoreapp3.1/01.Basic_Stack_Operations.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/bin/Debug/netcoreapp3.1/01.Basic_Stack_Operations.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/bin/Debug/netcoreapp3.1/01.Basic_Stack_Operations.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/01.Basic_Stack_Operations/obj/Debug/netcoreapp3.1/01.Basic_Stack_Operations.genruntimeconfig.cache

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{D618F375-39C8-447E-BF2D-66D45883971E}|Default">
+  <MonoDevelop.Ide.ItemProperties.03.Maximum__and__Minimum__Element PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Demo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.02.Basic__Queue__Operations FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="STACKS_AND_QUEUES" expanded="True">
+            <Node name="05.Fashion_Boutique" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="06.Songs_Queue" expanded="True" />
+            <Node name="Demo" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.06.Songs__Queue PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.04.Fast__Food PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.01.Basic__Stack__Operations PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.05.Fashion__Boutique PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

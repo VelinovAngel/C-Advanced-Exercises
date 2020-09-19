@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/bin/Debug/netcoreapp3.1/06.Songs_Queue.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/bin/Debug/netcoreapp3.1/06.Songs_Queue.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/bin/Debug/netcoreapp3.1/06.Songs_Queue.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/bin/Debug/netcoreapp3.1/06.Songs_Queue.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/bin/Debug/netcoreapp3.1/06.Songs_Queue.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/06.Songs_Queue/obj/Debug/netcoreapp3.1/06.Songs_Queue.genruntimeconfig.cache

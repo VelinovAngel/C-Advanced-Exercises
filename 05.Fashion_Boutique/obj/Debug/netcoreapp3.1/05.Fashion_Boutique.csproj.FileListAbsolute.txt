@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/bin/Debug/netcoreapp3.1/05.Fashion_Boutique.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/bin/Debug/netcoreapp3.1/05.Fashion_Boutique.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/bin/Debug/netcoreapp3.1/05.Fashion_Boutique.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/bin/Debug/netcoreapp3.1/05.Fashion_Boutique.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/bin/Debug/netcoreapp3.1/05.Fashion_Boutique.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/Debug/netcoreapp3.1/05.Fashion_Boutique.genruntimeconfig.cache

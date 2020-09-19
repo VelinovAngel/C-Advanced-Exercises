@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/bin/Debug/netcoreapp3.1/Demo.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/bin/Debug/netcoreapp3.1/Demo.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/bin/Debug/netcoreapp3.1/Demo.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/bin/Debug/netcoreapp3.1/Demo.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/bin/Debug/netcoreapp3.1/Demo.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/Demo/obj/Debug/netcoreapp3.1/Demo.genruntimeconfig.cache

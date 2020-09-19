@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/bin/Debug/netcoreapp3.1/04.Fast_Food.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/bin/Debug/netcoreapp3.1/04.Fast_Food.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/bin/Debug/netcoreapp3.1/04.Fast_Food.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/bin/Debug/netcoreapp3.1/04.Fast_Food.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/bin/Debug/netcoreapp3.1/04.Fast_Food.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/Debug/netcoreapp3.1/04.Fast_Food.genruntimeconfig.cache

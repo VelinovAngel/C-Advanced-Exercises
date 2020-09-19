@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/bin/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.deps.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/bin/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.runtimeconfig.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/bin/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.runtimeconfig.dev.json
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/bin/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/bin/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.AssemblyInfo.cs
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.dll
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.pdb
+/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/Debug/netcoreapp3.1/03.Maximum_and_Minimum_Element.genruntimeconfig.cache
