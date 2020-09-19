@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {}
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
-        "projectName": "01.Basic_Stack_Operations",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj",
+        "projectName": "07.Truck_Tour",
+        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/obj/",
+        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/03.Maximum_and_Minimum_Element.csproj",
+      "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/03.Maximum_and_Minimum_Element/03.Maximum_and_Minimum_Element.csproj",
       "projectName": "03.Maximum_and_Minimum_Element",
-      "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/03.Maximum_and_Minimum_Element.csproj",
+      "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/03.Maximum_and_Minimum_Element/03.Maximum_and_Minimum_Element.csproj",
       "packagesPath": "/Users/pLazZma/.nuget/packages/",
-      "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/03.Maximum_and_Minimum_Element/obj/",
+      "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/03.Maximum_and_Minimum_Element/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pLazZma/.config/NuGet/NuGet.Config"

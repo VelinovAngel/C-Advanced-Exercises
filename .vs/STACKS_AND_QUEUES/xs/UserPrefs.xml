@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{D618F375-39C8-447E-BF2D-66D45883971E}|Default">
   <MonoDevelop.Ide.ItemProperties.03.Maximum__and__Minimum__Element PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Demo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.07.Truck__Tour FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.02.Basic__Queue__Operations FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="07.Truck_Tour/Program.cs">
+    <Files>
+      <File FileName="07.Truck_Tour/Program.cs" Line="9" Column="13" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="STACKS_AND_QUEUES" expanded="True">
-            <Node name="05.Fashion_Boutique" expanded="True">
+            <Node name="07.Truck_Tour" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="06.Songs_Queue" expanded="True" />
             <Node name="Demo" expanded="True" />
           </Node>
         </State>

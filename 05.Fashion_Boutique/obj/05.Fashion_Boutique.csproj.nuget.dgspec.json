@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/05.Fashion_Boutique.csproj": {}
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/05.Fashion_Boutique/05.Fashion_Boutique.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/05.Fashion_Boutique.csproj": {
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/05.Fashion_Boutique/05.Fashion_Boutique.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/05.Fashion_Boutique.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/05.Fashion_Boutique/05.Fashion_Boutique.csproj",
         "projectName": "05.Fashion_Boutique",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/05.Fashion_Boutique.csproj",
+        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/05.Fashion_Boutique/05.Fashion_Boutique.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/05.Fashion_Boutique/obj/",
+        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/05.Fashion_Boutique/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/04.Fast_Food.csproj": {}
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/04.Fast_Food/04.Fast_Food.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/04.Fast_Food.csproj": {
+    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/04.Fast_Food/04.Fast_Food.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/04.Fast_Food.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/04.Fast_Food/04.Fast_Food.csproj",
         "projectName": "04.Fast_Food",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/04.Fast_Food.csproj",
+        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/04.Fast_Food/04.Fast_Food.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/04.Fast_Food/obj/",
+        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/04.Fast_Food/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"
