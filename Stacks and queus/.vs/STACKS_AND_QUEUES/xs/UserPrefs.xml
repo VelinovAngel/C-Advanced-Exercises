@@ -1,14 +1,10 @@
-﻿<Properties StartupConfiguration="{3D6BF845-2B03-485E-B1EF-00F7250155AB}|Default">
+﻿<Properties StartupConfiguration="{225CB38E-2686-4AC4-BBF2-EF19B1CCD974}|Default">
   <MonoDevelop.Ide.ItemProperties.03.Maximum__and__Minimum__Element PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Demo PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.07.Truck__Tour PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.02.Basic__Queue__Operations FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.09.Simple__Text__Editor PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="10.Crossroads/Program.cs">
-    <Files>
-      <File FileName="11.Key_Revolver/Program.cs" Line="46" Column="1" />
-      <File FileName="10.Crossroads/Program.cs" Line="9" Column="17" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -16,7 +12,6 @@
             <Node name="10.Crossroads" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="11.Key_Revolver" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,7 +22,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.11.Key__Revolver FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.10.Crossroads FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.10.Crossroads PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.01.Basic__Stack__Operations PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

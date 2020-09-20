@@ -48,12 +48,11 @@ namespace _10.Crossroads
                             {
                                 crash = true;
                                 crashedCar = currentCar;
-                                hitIndex = currentGreenLight + freeWindowInterval; 
+                                hitIndex = currentGreenLight + freeWindowInterval;
                             }
 
                             break;
                         }
-
                     }
                 }
                 else
