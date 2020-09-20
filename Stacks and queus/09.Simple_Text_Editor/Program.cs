@@ -43,9 +43,7 @@ namespace _09.Simple_Text_Editor
                         text.Append(version.Pop());
                         break;
                 }
-
             }
-
         }
     }
 }
