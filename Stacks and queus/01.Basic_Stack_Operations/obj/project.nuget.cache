@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UPul3wMX++0AZfUKU7WUH3sgvZkKKH+EE5DhAfE6A0yMZU9hnOLoU58rq1ixklxKQxHi2QT/CxQhUjQgCqiD3Q==",
+  "dgSpecHash": "0iDrsRkrPI83Zef/kG8GfgSACl5az909PDaDJ/TykXMdQ90eaSMWihglx2lLcApjzQ1TWKS7mtS8YtODNY3oRA==",
   "success": true,
-  "projectFilePath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
+  "projectFilePath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

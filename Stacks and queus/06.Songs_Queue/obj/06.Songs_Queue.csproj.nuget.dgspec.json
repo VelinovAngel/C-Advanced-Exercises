@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/06.Songs_Queue/06.Songs_Queue.csproj": {}
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/06.Songs_Queue/06.Songs_Queue.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/06.Songs_Queue/06.Songs_Queue.csproj": {
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/06.Songs_Queue/06.Songs_Queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/06.Songs_Queue/06.Songs_Queue.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/06.Songs_Queue/06.Songs_Queue.csproj",
         "projectName": "06.Songs_Queue",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/06.Songs_Queue/06.Songs_Queue.csproj",
+        "projectPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/06.Songs_Queue/06.Songs_Queue.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/06.Songs_Queue/obj/",
+        "outputPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/06.Songs_Queue/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"

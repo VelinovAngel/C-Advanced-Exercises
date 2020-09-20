@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {}
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
         "projectName": "01.Basic_Stack_Operations",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
+        "projectPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/01.Basic_Stack_Operations.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/01.Basic_Stack_Operations/obj/",
+        "outputPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/01.Basic_Stack_Operations/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj",
+      "projectUniqueName": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/07.Truck_Tour/07.Truck_Tour.csproj",
       "projectName": "07.Truck_Tour",
-      "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/07.Truck_Tour.csproj",
+      "projectPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/07.Truck_Tour/07.Truck_Tour.csproj",
       "packagesPath": "/Users/pLazZma/.nuget/packages/",
-      "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/07.Truck_Tour/obj/",
+      "outputPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/07.Truck_Tour/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/pLazZma/.config/NuGet/NuGet.Config"

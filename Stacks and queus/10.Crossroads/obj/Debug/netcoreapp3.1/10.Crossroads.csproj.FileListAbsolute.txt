@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/bin/Debug/netcoreapp3.1/10.Crossroads.deps.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/bin/Debug/netcoreapp3.1/10.Crossroads.runtimeconfig.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/bin/Debug/netcoreapp3.1/10.Crossroads.runtimeconfig.dev.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/bin/Debug/netcoreapp3.1/10.Crossroads.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/bin/Debug/netcoreapp3.1/10.Crossroads.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.AssemblyInfo.cs
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/10.Crossroads/obj/Debug/netcoreapp3.1/10.Crossroads.genruntimeconfig.cache

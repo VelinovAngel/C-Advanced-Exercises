@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj": {}
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj": {}
   },
   "projects": {
-    "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj": {
+    "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj",
+        "projectUniqueName": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj",
         "projectName": "09.Simple_Text_Editor",
-        "projectPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj",
+        "projectPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/09.Simple_Text_Editor/09.Simple_Text_Editor.csproj",
         "packagesPath": "/Users/pLazZma/.nuget/packages/",
-        "outputPath": "/Users/pLazZma/Projects/STACKS_AND_QUEUES/C-Advanced-Exercises/09.Simple_Text_Editor/obj/",
+        "outputPath": "/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/Stacks and queus/09.Simple_Text_Editor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pLazZma/.config/NuGet/NuGet.Config"
