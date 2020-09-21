@@ -1,46 +1,48 @@
 ﻿using System;
 using System.Linq;
 
-namespace _1.Sum_Matrix_Elements
+namespace Demo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] dimensions = Console.ReadLine()
-                .Split(", ")
-                .Select(int.Parse)
-                .ToArray();
+            int n = int.Parse(Console.ReadLine());
 
-            int rows = dimensions[0];
-            int cols = dimensions[1];
+            int[,] matrix = new int[n, n];
 
+            FillMatrix(matrix);
+            Console.WriteLine("-----------------");
+            PrintMatrix(matrix);
 
-            int[,] matrix = new int[rows, cols];
+        }
 
-            for (int row = 0; row < rows; row++)
+        static void PrintMatrix(int[,] matrix)
+        {
+            for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                int[] currentRow = Console.ReadLine()
-                    .Split(", ")
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    Console.Write(matrix[row, col] + " ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        static void FillMatrix(int[,] matrix)
+        {
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                int[] currentRows = Console.ReadLine()
+                    .Split()
                     .Select(int.Parse)
                     .ToArray();
-
-                for (int col = 0; col < cols; col++)
+                for (int col = 0; col < matrix.GetLength(1); col++)
                 {
-                    matrix[row, col] = currentRow[col];
+                    matrix[row, col] = currentRows[col];
                 }
             }
 
-            Console.WriteLine(rows);
-            Console.WriteLine(cols);
-
-            int sum = 0;
-            foreach (var item in matrix)
-            {
-                sum += item;
-            }
-            Console.WriteLine(sum);
-           
         }
     }
 }
