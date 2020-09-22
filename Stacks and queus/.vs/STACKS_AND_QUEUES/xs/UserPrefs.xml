@@ -2,13 +2,21 @@
   <MonoDevelop.Ide.ItemProperties.03.Maximum__and__Minimum__Element PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Demo PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.07.Truck__Tour PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.4.Matching__Brackets FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.02.Basic__Queue__Operations FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.09.Simple__Text__Editor PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="4.Matching_Brackets/Program.cs">
+    <Files>
+      <File FileName="4.Matching_Brackets/Program.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="STACKS_AND_QUEUES" expanded="True" />
+          <Node name="STACKS_AND_QUEUES" expanded="True">
+            <Node name="4.Matching_Brackets" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

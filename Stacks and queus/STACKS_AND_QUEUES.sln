@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Crossroads", "10.Crossro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Print_Even_Numbers", "5.Print_Even_Numbers\5.Print_Even_Numbers.csproj", "{6E4EBDD7-ED64-4FBE-B0D1-C21BE44E65D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Matching_Brackets", "4.Matching_Brackets\4.Matching_Brackets.csproj", "{DFE18652-7DE8-48D8-87D3-AB5CF3056D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,5 +81,9 @@ Global
 		{6E4EBDD7-ED64-4FBE-B0D1-C21BE44E65D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E4EBDD7-ED64-4FBE-B0D1-C21BE44E65D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E4EBDD7-ED64-4FBE-B0D1-C21BE44E65D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE18652-7DE8-48D8-87D3-AB5CF3056D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE18652-7DE8-48D8-87D3-AB5CF3056D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE18652-7DE8-48D8-87D3-AB5CF3056D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE18652-7DE8-48D8-87D3-AB5CF3056D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
