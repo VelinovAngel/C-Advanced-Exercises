@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Snake_Moves", "5.Snake_Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Jagged_Array_Manipulator", "6.Jagged_Array_Manipulator\6.Jagged_Array_Manipulator.csproj", "{518D1DE3-99CF-4B6D-95A7-F86D5E280EA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Knight_Game", "7.Knight_Game\7.Knight_Game.csproj", "{38E30FF8-3C64-4548-8325-A343414FEDEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,5 +93,9 @@ Global
 		{518D1DE3-99CF-4B6D-95A7-F86D5E280EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{518D1DE3-99CF-4B6D-95A7-F86D5E280EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518D1DE3-99CF-4B6D-95A7-F86D5E280EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E30FF8-3C64-4548-8325-A343414FEDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E30FF8-3C64-4548-8325-A343414FEDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E30FF8-3C64-4548-8325-A343414FEDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E30FF8-3C64-4548-8325-A343414FEDEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
