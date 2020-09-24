@@ -6,17 +6,12 @@
   <MonoDevelop.Ide.ItemProperties.02.Basic__Queue__Operations FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.7.Hot__Potato FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.09.Simple__Text__Editor PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="8.Traffic_Jam/Program.cs">
-    <Files>
-      <File FileName="8.Traffic_Jam/Program.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="STACKS_AND_QUEUES" expanded="True">
-            <Node name="8.Traffic_Jam" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="8.Traffic_Jam" selected="True" />
           </Node>
         </State>
       </Pad>

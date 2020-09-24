@@ -7,33 +7,28 @@ namespace _6.Jagged_Array_Manipulator
     {
         static void Main(string[] args)
         {
-            
-        }
 
-        static void FillMatrix(string[,] matrix)
-        {
-            for (int row = 0; row < matrix.GetLength(0); row++)
+            int rows = int.Parse(Console.ReadLine());
+
+            int[][] jaggedArr = new int[rows][];
+
+            for (int row = 0; row < rows; row++)
             {
-                string[] currentRows = Console.ReadLine()
+                int[] colsValue = Console
+                    .ReadLine()
                     .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x => int.Parse(x))
                     .ToArray();
-                for (int col = 0; col < matrix.GetLength(1); col++)
-                {
-                    matrix[row, col] = currentRows[col];
-                }
-            }
-        }
+                jaggedArr[row] = new int[colsValue.Length];
 
-        static void PrintMatrix(char[,] matrix)
-        {
-            for (int row = 0; row < matrix.GetLength(0); row++)
-            {
-                for (int col = 0; col < matrix.GetLength(1); col++)
+                for (int col = 0; col < colsValue.Length; col++)
                 {
-                    Console.Write(matrix[row, col]);
+                    jaggedArr[row][col] = colsValue[col];
                 }
-                Console.WriteLine();
             }
+
+            ;
+
         }
     }
 }
