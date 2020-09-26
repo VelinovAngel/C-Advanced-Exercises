@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Average_Student_Grades",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Product_Shop", "03.Product_Shop\03.Product_Shop.csproj", "{194DF9B9-643C-41F9-82D2-38B1BA1AC434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Cities_by_Continent_and_Country", "04.Cities_by_Continent_and_Country\04.Cities_by_Continent_and_Country.csproj", "{0142B405-E38E-4AD0-BAA6-52DAE32126FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{194DF9B9-643C-41F9-82D2-38B1BA1AC434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194DF9B9-643C-41F9-82D2-38B1BA1AC434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194DF9B9-643C-41F9-82D2-38B1BA1AC434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0142B405-E38E-4AD0-BAA6-52DAE32126FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0142B405-E38E-4AD0-BAA6-52DAE32126FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0142B405-E38E-4AD0-BAA6-52DAE32126FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0142B405-E38E-4AD0-BAA6-52DAE32126FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
