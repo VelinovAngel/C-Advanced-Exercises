@@ -56,7 +56,6 @@ namespace _04.Cities_by_Continent_and_Country
                         continents[continent][country].Add(city);
                     }
                 }
-
             }
 
             foreach (var kvp in continents)
