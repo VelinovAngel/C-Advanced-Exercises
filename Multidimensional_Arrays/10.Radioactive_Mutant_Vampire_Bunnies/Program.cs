@@ -114,7 +114,6 @@ namespace _10.Radioactive_Mutant_Vampire_Bunnies
                 {
                     break;
                 }
-
             }
 
             for (int row = 0; row < matrix.GetLength(0); row++)
