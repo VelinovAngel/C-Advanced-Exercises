@@ -26,7 +26,7 @@ namespace _04.Even_Times
 
             foreach (var item in store)
             {
-                if (item.Value > 1)
+                if (item.Value % 2 == 0)
                 {
                     Console.WriteLine(item.Key);
                 }
