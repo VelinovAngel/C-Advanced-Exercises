@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace _03.Periodic_Table
 {
@@ -27,7 +26,6 @@ namespace _03.Periodic_Table
             {
                 Console.Write($"{item} ");
             }
-
         }
     }
 }
