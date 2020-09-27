@@ -25,8 +25,6 @@ namespace _05.Count_Symbols
             {
                 Console.WriteLine($"{kvp.Key}: {kvp.Value} time/s");
             }
-
-
         }
     }
 }
