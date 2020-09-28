@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Count_Symbols", "05.Coun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Wardrobe", "06.Wardrobe\06.Wardrobe.csproj", "{129F0C4F-524F-48EF-A3AA-1A914EA6F348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.The_V-Logger", "07.The_V-Logger\07.The_V-Logger.csproj", "{56AC5FA9-D609-451C-84F9-4B1646EAF347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,5 +93,9 @@ Global
 		{129F0C4F-524F-48EF-A3AA-1A914EA6F348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{129F0C4F-524F-48EF-A3AA-1A914EA6F348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{129F0C4F-524F-48EF-A3AA-1A914EA6F348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AC5FA9-D609-451C-84F9-4B1646EAF347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AC5FA9-D609-451C-84F9-4B1646EAF347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AC5FA9-D609-451C-84F9-4B1646EAF347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AC5FA9-D609-451C-84F9-4B1646EAF347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
