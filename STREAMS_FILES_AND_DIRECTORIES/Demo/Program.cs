@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Demo
 {
@@ -6,9 +7,10 @@ namespace Demo
     {
         static void Main(string[] args)
         {
-            //{ "-", ",", ".", "!", "?"}
-
-
+            using (StreamWriter writer = new StreamWriter("../../../text.txt"))
+            {
+                writer.WriteLine();
+            }
         }
     }
 }
