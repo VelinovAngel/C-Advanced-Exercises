@@ -17,7 +17,6 @@ namespace _01.Flower_Wreaths
                 .Select(int.Parse)
                 .ToArray();
 
-
             //10, 15, 2, 7, 9, 13
             //2, 10, 8, 12, 0, 5
             //the last lilies and the first roses
@@ -44,7 +43,6 @@ namespace _01.Flower_Wreaths
                 {
                     while (currSum > 15)
                     {
-
                         currSum = currRose + (currLilie);
                         currLilie--;
                         currLilie--;
