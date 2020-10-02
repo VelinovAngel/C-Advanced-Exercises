@@ -20,6 +20,7 @@ namespace _01.Flower_Wreaths
             //10, 15, 2, 7, 9, 13
             //2, 10, 8, 12, 0, 5
             //the last lilies and the first roses
+            //
 
             Stack<int> stackRoses = new Stack<int>(roses);
             Queue<int> queueLilies = new Queue<int>(lilies);
