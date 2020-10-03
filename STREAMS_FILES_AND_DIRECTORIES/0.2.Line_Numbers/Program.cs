@@ -29,7 +29,7 @@ namespace _0._2.Line_Numbers
                 }
                 Console.WriteLine($"Line {i + 1}: {text[i]} ({countSymbols})({countPunctuation})");
                 newText[i] = $"Line {i + 1}: {text[i]} ({countSymbols})({countPunctuation})";
-                File.WriteAllLines("../../../OutPutText.txt", newText);
+                File.WriteAllLines("../../../output.txt", newText);
             }
         }
     }
