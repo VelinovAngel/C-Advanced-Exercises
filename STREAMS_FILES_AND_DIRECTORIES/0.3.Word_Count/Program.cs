@@ -16,22 +16,7 @@ namespace _0._3.Word_Count
             string[] inputText = File.ReadAllLines("../../../text.txt");
 
             Dictionary<string, int> actualResult = new Dictionary<string, int>();
-
-
-            for (int i = 0; i < inputText.Length; i++)
-            {
-                for (int j = 0; j < pattern.Length; j++)
-                {
-                    if (inputText[i].ToLower().Contains(pattern[j].ToLower()))
-                    {
-                        if (!actualResult.ContainsKey(pattern[j]))
-                        {
-                            actualResult.Add(pattern[j], 0);
-                        }
-                        actualResult[pattern[j]]++;
-                    }
-                }
-            }
+            MergeFils(pattern, inputText, actualResult);
 
             //actualResult.txt - result
 
@@ -52,7 +37,24 @@ namespace _0._3.Word_Count
                     writer.WriteLine($"{kvp.Key} - {kvp.Value}");
                 }
             }
+        }
 
+        private static void MergeFils(string[] pattern, string[] inputText, Dictionary<string, int> actualResult)
+        {
+            for (int i = 0; i < inputText.Length; i++)
+            {
+                for (int j = 0; j < pattern.Length; j++)
+                {
+                    if (inputText[i].ToLower().Contains(pattern[j].ToLower()))
+                    {
+                        if (!actualResult.ContainsKey(pattern[j]))
+                        {
+                            actualResult.Add(pattern[j], 0);
+                        }
+                        actualResult[pattern[j]]++;
+                    }
+                }
+            }
         }
     }
 }
