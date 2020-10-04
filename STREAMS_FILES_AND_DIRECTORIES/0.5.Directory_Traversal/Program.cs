@@ -24,11 +24,9 @@ namespace _0._5.Directory_Traversal
                 fileInfo[file.Extension].Add(file.Name, file.Length / 1000.00);
             }
 
-            
-
             using (StreamWriter writer =
                 new StreamWriter
-                (@$"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}DirectoryTraversal.txt"))
+                (@$"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}DirectoryTraversal.txt"))
             {
 
                 foreach (var kvp in fileInfo.OrderByDescending(x => x.Value.Count).ThenBy(n => n.Key))
