@@ -12,7 +12,6 @@ namespace _05.Applied_Arithmetics
             Func<int, int> multiplyFunc = x => x * 2;
             Func<int, int> subtractFunc = x => x - 1;
 
-
             Action<List<int>> printFunc = x => Console.WriteLine(string.Join(' ', x));
 
             //•	"add"->add 1 to each number
@@ -30,7 +29,6 @@ namespace _05.Applied_Arithmetics
 
             while ((input = Console.ReadLine()) != "end")
             {
-
                 switch (input)
                 {
                     case "add":
@@ -48,7 +46,6 @@ namespace _05.Applied_Arithmetics
                         break;
                 }
             }
-
         }
     }
 }

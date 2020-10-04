@@ -14,7 +14,6 @@ namespace _03.Custom_Min_Function
                 .Select(myIntParse)
                 .ToArray();
 
-
             Func<int[], int> minFunc = nums =>
              {
                  int minNum = int.MaxValue;
