@@ -7,11 +7,11 @@ namespace _0._6.Zip_and_Extract
     {
         static void Main(string[] args)
         {
-            ZipFile.CreateFromDirectory("../../../Books", "../../../Books.zip");
+            ZipFile.CreateFromDirectory("../../../Books", "../../../Archive/Books.zip");
             Console.WriteLine("Creating files completed");
 
 
-            ZipFile.ExtractToDirectory("../../../Books.zip", "../../../");
+            ZipFile.ExtractToDirectory("../../../Archive/Books.zip", "../../../DemoResult");
             Console.WriteLine("Extracting files completed");
         }
     }
