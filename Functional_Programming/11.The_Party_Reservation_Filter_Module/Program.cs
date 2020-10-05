@@ -18,24 +18,46 @@ namespace _11.The_Party_Reservation_Filter_Module
 
             while ((input = Console.ReadLine()) != "Print")
             {
-                if (input.StartsWith("Add filter;"))
+                string[] tokens = input.Split(";");
+                string commandName = tokens[0];
+                string filterType = tokens[1];
+                string argument = tokens[2];
+
+
+                if (commandName == "Add filter")
                 {
-                    filters.Add(input);
+                    filters.Add($"{filterType};{argument}");
                 }
-                else if (input.StartsWith("Remove filter;"))
+                else if (commandName == "Remove filter")
                 {
-                    filters.Remove(input);
+                    filters.Remove($"{filterType};{argument}");
                 }
             }
 
             foreach (var filterLine in filters)
             {
                 string[] tokens = filterLine.Split(';');
-                string commnadType = tokens[0];
+                string filterType = tokens[0];
+                string arguments = tokens[1];
 
-
+                switch (filterType)
+                {
+                    case "Starts with":
+                        people = people.Where(p => !p.StartsWith(arguments)).ToList();
+                        break;
+                    case "Ends with":
+                        people = people.Where(p => !p.EndsWith(arguments)).ToList();
+                        break;
+                    case "Length":
+                        people = people.Where(p => p.Length != int.Parse(arguments)).ToList();
+                        break;
+                    case "Contains":
+                        people = people.Where(p => p.Contains(arguments)).ToList();
+                        break;
+                }
             }
 
+                Console.WriteLine(string.Join(" ",people));
         }
     }
 }
