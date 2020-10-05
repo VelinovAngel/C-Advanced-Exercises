@@ -36,7 +36,7 @@ namespace _11.The_Party_Reservation_Filter_Module
 
             foreach (var filterLine in filters)
             {
-                string[] tokens = filterLine.Split(';');
+                string[] tokens = filterLine.Split(";");
                 string filterType = tokens[0];
                 string arguments = tokens[1];
 
@@ -52,7 +52,7 @@ namespace _11.The_Party_Reservation_Filter_Module
                         people = people.Where(p => p.Length != int.Parse(arguments)).ToList();
                         break;
                     case "Contains":
-                        people = people.Where(p => p.Contains(arguments)).ToList();
+                        people = people.Where(p => !p.Contains(arguments)).ToList();
                         break;
                 }
             }
