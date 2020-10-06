@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Filter_By_Age", "05.Filt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.TriFunction", "12.TriFunction\12.TriFunction.csproj", "{E4177462-A4B5-474D-A7E9-5A4E17770E8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Predicate_Party", "10.Predicate_Party\10.Predicate_Party.csproj", "{F73F232B-1285-459A-8DEC-639B62C4B19C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,5 +81,9 @@ Global
 		{E4177462-A4B5-474D-A7E9-5A4E17770E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4177462-A4B5-474D-A7E9-5A4E17770E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4177462-A4B5-474D-A7E9-5A4E17770E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73F232B-1285-459A-8DEC-639B62C4B19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73F232B-1285-459A-8DEC-639B62C4B19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73F232B-1285-459A-8DEC-639B62C4B19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73F232B-1285-459A-8DEC-639B62C4B19C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
