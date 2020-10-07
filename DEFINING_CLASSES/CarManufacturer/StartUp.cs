@@ -13,17 +13,14 @@ namespace CarManufacturer
             string tire = string.Empty;
             while ((tire = Console.ReadLine()) != "No more tires")
             {
-
                 string[] tokens = tire.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 Tire[] currTires = new Tire[4]
                 {
-
                     new Tire(int.Parse(tokens[0]), double.Parse(tokens[1])),
                     new Tire(int.Parse(tokens[2]), double.Parse(tokens[3])),
                     new Tire(int.Parse(tokens[4]), double.Parse(tokens[5])),
                     new Tire(int.Parse(tokens[6]), double.Parse(tokens[7])),
-
                 };
 
                 tiresStore.Add(currTires);
@@ -56,10 +53,8 @@ namespace CarManufacturer
                 int year = int.Parse(tokens[2]);
                 double fuelQuantity = double.Parse(tokens[3]);
                 double fuelConsumption = double.Parse(tokens[4]);
-
                 int engineIndex = int.Parse(tokens[5]);
                 int tireIndex = int.Parse(tokens[6]);
-
 
                 if ((engineIndex >= 0 && engineIndex < engines.Count)
                     &&
