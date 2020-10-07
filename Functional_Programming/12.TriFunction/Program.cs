@@ -24,6 +24,7 @@ namespace _12.TriFunction
             //    return result;
 
             //};
+
             //string person = GetName(people, n, GetAschiiSum);
             //Console.WriteLine(person);
 
@@ -34,17 +35,17 @@ namespace _12.TriFunction
             Console.WriteLine(result);
         }
 
-        static string GetName(List<string> people, int n, Func<string, int> func)
-        {
-            string result = null;
-            foreach (var person in people)
-            {
-                if (func(person) >= n)
-                {
-                    result = person;
-                }
-            }
-            return result;
-        }
+        //static string GetName(List<string> people, int n, Func<string, int> func)
+        //{
+        //    string result = null;
+        //    foreach (var person in people)
+        //    {
+        //        if (func(person) >= n)
+        //        {
+        //            result = person;
+        //        }
+        //    }
+        //    return result;
+        //}
     }
 }
