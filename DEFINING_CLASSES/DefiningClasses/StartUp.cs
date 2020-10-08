@@ -23,9 +23,15 @@ namespace DefiningClasses
                 family.AddMember(person);
             }
 
-            Person oldestPerson = family.GetOldestMember();
+            //Person oldestPerson = family.GetOldestMember();
+            Person[] oldestPerson = family.GetPeople();
 
-            Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
+            //Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
+
+            foreach (var people in oldestPerson)
+            {
+                Console.WriteLine($"{people.Name} - {people.Age}");
+            }
 
 
         }

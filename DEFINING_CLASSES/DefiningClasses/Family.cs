@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DefiningClasses
 {
@@ -19,22 +20,38 @@ namespace DefiningClasses
 
         public Person GetOldestMember()
         {
-            int maxAge = int.MinValue;
-            Person person = null;
+            //int maxAge = int.MinValue;
+            //Person person = null;
 
-            foreach (var item in People)
-            {
-                int currAge = item.Age;
+            //foreach (var item in People)
+            //{
+            //    int currAge = item.Age;
 
-                if (currAge > maxAge)
-                {
-                    maxAge = currAge;
-                    person = item;
-                }
-            }
+            //    if (currAge > maxAge)
+            //    {
+            //        maxAge = currAge;
+            //        person = item;
+            //    }
+            //}
 
-            return person;
-            
+
+            //Person[] oldestPerson = People.OrderByDescending(x => x.Age).ToArray();
+            //Person oldestPerson = People.OrderByDescending(x => x.Age).First();
+
+            //return oldestPerson;
+
+            return People.OrderByDescending(x => x.Age).First();
+
+        }
+
+        public Person[] GetPeople()
+        {
+            Person[] people = People
+                .Where(x => x.Age > 30)
+                .OrderBy(x => x.Name)
+                .ToArray();
+
+            return people;
         }
     }
 }
