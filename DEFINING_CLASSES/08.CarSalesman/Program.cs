@@ -58,6 +58,10 @@ namespace _08.CarSalesman
                         car = new Car(model, engine, weight);
 
                     }
+                    else
+                    {
+                        car = new Car(model, engine, inputInfo[2]);
+                    }
                 }
                 else if (inputInfo.Length == 4)
                 {

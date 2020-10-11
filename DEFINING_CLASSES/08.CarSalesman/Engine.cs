@@ -50,7 +50,7 @@ namespace _08.CarSalesman
             //Displacement: { EngineDisplacement}
             //Efficiency: { EngineEfficiency}
 
-            sb.AppendLine($"{this.Model}")
+            sb.AppendLine($"{this.Model}:")
                 .AppendLine($"    Power: {this.Power}")
                 .AppendLine($"    Displacement: {dispStr}")
                 .AppendLine($"    Efficiency: {effStr}");
