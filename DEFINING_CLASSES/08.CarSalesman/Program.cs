@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _08.CarSalesman
 {
@@ -9,7 +10,7 @@ namespace _08.CarSalesman
 
             int n = int.Parse(Console.ReadLine());
 
-            Engine[] engines = new Engine[n];
+            HashSet<Engine> engines = new HashSet<Engine>();
             //"{model} {power} {displacement} {efficiency}"
             //  V8-101   220       50
 
@@ -20,46 +21,37 @@ namespace _08.CarSalesman
 
                 string model = inputInfo[0];
                 int power = int.Parse(inputInfo[1]);
+                int displacement = int.Parse(inputInfo[2]);
+                string efficiency = inputInfo[3];
 
-                if (inputInfo.Length == 2)
-                {
-                    engines[i] = new Engine(model, power);
-                }
-                else if (inputInfo.Length == 3)
-                {
-                    int displacement = int.Parse(inputInfo[2]);
-                    engines[i] = new Engine(model, power, displacement);
-                }
-                else if (inputInfo.Length > 3)
-                {
-                    int displacement = int.Parse(inputInfo[2]);
-                    string efficiency = inputInfo[3];
-                    engines[i] = new Engine(model, power, displacement, efficiency);
-                }
             }
-            ;
+
 
 
             int m = int.Parse(Console.ReadLine());
-            Car[] cars = new Car[m];
+            List<Car> cars = new List<Car>();
 
             for (int i = 0; i < m; i++)
             {
                 string[] inputInfo = Console.ReadLine()
                     .Split(new char[] { ' ', '-' }, StringSplitOptions.RemoveEmptyEntries);
-                //"{model} {engine} {weight} {color}" 
+                //"{model} {engine} {weight} {color}"
+
+                //FordFocus        V4-33      1300     Silver
+                //FordMustang      V8 - 101
+                //VolkswagenGolf   V4-33               Orange
 
                 string model = inputInfo[0];
-                string engine = inputInfo[1];
                 int weight = int.Parse(inputInfo[2]);
                 string color = inputInfo[3];
+                string engine = inputInfo[1];
 
-                cars[i] = new Car(model, engine, weight, color);
+
+
 
             }
 
-
-
         }
+
     }
 }
