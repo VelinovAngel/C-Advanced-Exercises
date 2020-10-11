@@ -55,7 +55,7 @@ namespace _08.CarSalesman
             string colorStr = String.IsNullOrEmpty(this.Color) ? "n/a" : this.Color;
 
             sb.AppendLine($"{this.Model}:")
-                .AppendLine($"  {this.Engine}:")
+                .AppendLine($"  {this.Engine}")
                 .AppendLine($"  Weight: {weightStr}")
                 .AppendLine($"  Color: {colorStr}");
 

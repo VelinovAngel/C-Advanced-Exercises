@@ -51,9 +51,9 @@ namespace _08.CarSalesman
             //Efficiency: { EngineEfficiency}
 
             sb.AppendLine($"{this.Model}")
-                .AppendLine($"  Power: {this.Power}")
-                .AppendLine($"  Displacement: {dispStr}")
-                .AppendLine($"  Efficiency: {effStr}");
+                .AppendLine($"    Power: {this.Power}")
+                .AppendLine($"    Displacement: {dispStr}")
+                .AppendLine($"    Efficiency: {effStr}");
 
 
             return sb.ToString().TrimEnd();
