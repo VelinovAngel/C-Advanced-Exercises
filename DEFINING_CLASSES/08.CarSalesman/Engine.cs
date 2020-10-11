@@ -8,16 +8,15 @@ namespace _08.CarSalesman
             this.Model = model;
             this.Power = power;
         }
-        public Engine(string model, int power, int efficiency)
+        public Engine(string model, int power, int displacement)
             : this(model, power)
         {
-
-            this.Efficiency = efficiency;
+            this.Displacement = displacement;
         }
-        public Engine(string model, int power, int displacement, int efficiency)
+        public Engine(string model, int power, int displacement, string efficiency)
             : this(model, power, displacement)
         {
-            this.Displacement = displacement;
+            this.Efficiency = efficiency;
         }
 
         //•	Model
@@ -29,7 +28,7 @@ namespace _08.CarSalesman
         public int Power { get; set; }
 
         public int Displacement { get; set; }
-        public int Efficiency { get; set; }
+        public string Efficiency { get; set; }
 
 
     }

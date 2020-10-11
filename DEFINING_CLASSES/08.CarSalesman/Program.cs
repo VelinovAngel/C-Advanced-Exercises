@@ -21,23 +21,23 @@ namespace _08.CarSalesman
                 string model = inputInfo[0];
                 int power = int.Parse(inputInfo[1]);
 
-                if (inputInfo.Length == 1)
+                if (inputInfo.Length == 2)
                 {
                     engines[i] = new Engine(model, power);
                 }
-                else if (inputInfo.Length == 2)
+                else if (inputInfo.Length == 3)
                 {
                     int displacement = int.Parse(inputInfo[2]);
                     engines[i] = new Engine(model, power, displacement);
                 }
-                else if (inputInfo.Length > 2)
+                else if (inputInfo.Length > 3)
                 {
                     int displacement = int.Parse(inputInfo[2]);
                     string efficiency = inputInfo[3];
                     engines[i] = new Engine(model, power, displacement, efficiency);
                 }
-
             }
+            ;
 
 
             int m = int.Parse(Console.ReadLine());
