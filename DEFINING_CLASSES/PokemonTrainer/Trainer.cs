@@ -1,37 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace PokemonTrainer
 {
-    public class Trainers
+    public class Trainer
     {
-        private int numberOfBadges = 0;
+        
 
-        public Trainers(string name)
+        public Trainer(string name)
         {
             Name = name;
-
+            this.Badges = 0;
+            this.Pokemons = new List<Pokemon>();
         }
-
-        public Trainers(string name, int numberOfBadges, int aCollectionOfPokemon)
-            :this(name)
-        {
-            NumberOfBadges = numberOfBadges;
-            ACollectionOfPokemon = aCollectionOfPokemon;
-        }
-
 
         //•	Name
         //•	Number of badges
         //•	A collection of pokemon
 
-
         public string Name { get; set; }
 
-        public int NumberOfBadges
-        {
-            get { return  numberOfBadges; }
-            set { numberOfBadges = 0; }
-        }
-
-        public int  ACollectionOfPokemon { get; set; }
+        public int Badges { get; set; }
+        
+        public List<Pokemon>  Pokemons { get; set; }
     }
 }

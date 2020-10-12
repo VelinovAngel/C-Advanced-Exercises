@@ -21,6 +21,6 @@ namespace PokemonTrainer
         public int Health { get; set; }
 
 
-
+        
     }
 }
