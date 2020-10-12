@@ -18,10 +18,10 @@ namespace _01.SpaceshipCrafting
 
             Dictionary<string, int> result = new Dictionary<string, int>()
             {
-                {"Glass",25 },
-                {"Aluminium",50 },
-                {"Lithium",75 },
-                {"Carbon fiber",100 },
+                {"Glass",0 },
+                {"Aluminium",0 },
+                {"Lithium",0 },
+                {"Carbon fiber",0 },
             };
 
             int[] inputLiquids = Console.ReadLine()
@@ -34,7 +34,7 @@ namespace _01.SpaceshipCrafting
                 .Select(int.Parse)
                 .ToArray();
 
-            Queue<int> liquids = new Queue<int>(inputItems);
+            Queue<int> liquids = new Queue<int>(inputLiquids);
             Stack<int> items = new Stack<int>(inputItems);
 
             while (liquids.Count > 0 && items.Count > 0)
@@ -55,7 +55,8 @@ namespace _01.SpaceshipCrafting
                 else
                 {
                     liquids.Dequeue();
-                    items.Push(items.Pop() + 3);
+                    int itemResult = items.Pop() + 3;
+                    items.Push(itemResult);
                 }
             }
 
@@ -90,7 +91,6 @@ namespace _01.SpaceshipCrafting
             {
                 Console.WriteLine($"{key}: {value}");
             }
-
         }
     }
 }
