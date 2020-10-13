@@ -12,20 +12,7 @@ namespace _02.Bee
             int beeRow = -1;
             int beeCol = -1;
 
-            for (int row = 0; row < n; row++)
-            {
-                char[] currentRow = Console.ReadLine().ToCharArray();
-
-                for (int col = 0; col < n; col++)
-                {
-                    beeTerritory[row, col] = currentRow[col];
-                    if (currentRow[col] == 'B')
-                    {
-                        beeRow = row;
-                        beeCol = col;
-                    }
-                }
-            }
+            ReadMatrix(n, beeTerritory, ref beeRow, ref beeCol);
 
             int pollinatedFlowers = 0;
             string input = Console.ReadLine();
@@ -91,6 +78,24 @@ namespace _02.Bee
                     Console.Write(beeTerritory[row, col]);
                 }
                 Console.WriteLine();
+            }
+        }
+
+        private static void ReadMatrix(int n, char[,] beeTerritory, ref int beeRow, ref int beeCol)
+        {
+            for (int row = 0; row < n; row++)
+            {
+                char[] currentRow = Console.ReadLine().ToCharArray();
+
+                for (int col = 0; col < n; col++)
+                {
+                    beeTerritory[row, col] = currentRow[col];
+                    if (currentRow[col] == 'B')
+                    {
+                        beeRow = row;
+                        beeCol = col;
+                    }
+                }
             }
         }
     }
