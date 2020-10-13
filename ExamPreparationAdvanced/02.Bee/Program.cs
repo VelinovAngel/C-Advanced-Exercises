@@ -71,6 +71,11 @@ namespace _02.Bee
                 Console.WriteLine($"Great job, the bee managed to pollinate {pollinatedFlowers} flowers!");
             }
 
+            PrintMatrix(n, beeTerritory);
+        }
+
+        private static void PrintMatrix(int n, char[,] beeTerritory)
+        {
             for (int row = 0; row < n; row++)
             {
                 for (int col = 0; col < n; col++)
