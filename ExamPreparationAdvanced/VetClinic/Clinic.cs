@@ -67,8 +67,9 @@ namespace VetClinic
         {
 
             Pet petName = pets.FirstOrDefault(x => x.Name == name);
+            Pet petOwner = pets.FirstOrDefault(x => x.Owner == owner);
 
-            if (petName == null)
+            if (petName == null && petOwner == null)
             {
                 return null;
             }
@@ -76,6 +77,8 @@ namespace VetClinic
             {
                 return petName;
             }
+
+
         }
 
         public Pet GetOldestPet()
