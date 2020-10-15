@@ -2,7 +2,7 @@
 
 namespace Generic_Box_of_String
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
