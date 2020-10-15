@@ -2,11 +2,11 @@
 
 namespace _04.Generic_Swap_Method_Integer
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
