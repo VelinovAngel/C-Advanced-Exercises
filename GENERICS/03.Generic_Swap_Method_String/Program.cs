@@ -16,7 +16,6 @@ namespace _03.Generic_Swap_Method_String
                 string currName = Console.ReadLine();
 
                 values.Add(currName);
-
             }
 
             int[] inputItems = Console.ReadLine()
@@ -30,8 +29,7 @@ namespace _03.Generic_Swap_Method_String
             Box<string> box = new Box<string>(values);
             box.Swap(firstIndex, secondIndex);
 
-            Console.WriteLine(box);
-            
+            Console.WriteLine(box); 
         }
     }
 }

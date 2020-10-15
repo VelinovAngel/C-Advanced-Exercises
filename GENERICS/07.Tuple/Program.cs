@@ -11,7 +11,6 @@ namespace _07.Tuple
             string personFullName = $"{tokens[0]} {tokens[1]}";
             string personAdress = tokens[2];
 
-
             Tuple<string, string> personInfo = new Tuple<string, string>(personFullName, personAdress);
 
             string[] secondTokens = Console.ReadLine()
@@ -33,8 +32,6 @@ namespace _07.Tuple
             Console.WriteLine(personInfo);
             Console.WriteLine(personBeerInfo);
             Console.WriteLine(numbersInfo);
-
-
         }
     }
 }
