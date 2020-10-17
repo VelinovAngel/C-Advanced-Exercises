@@ -32,7 +32,7 @@ namespace VetClinic
         //    }
         //    Pet {Name
         //}
-        //with owner: { Owner}
+        //with owner: {Owner}
         //   (…)"
 
         public void Add(Pet pet)
