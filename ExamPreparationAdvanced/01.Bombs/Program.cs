@@ -33,7 +33,6 @@ namespace _01.Bombs
             //5, 25, 50, 115
             //5, 15, 25, 35
 
-
             //•	Datura Bombs: 40
             //•	Cherry Bombs: 60
             //•	Smoke Decoy Bombs: 120
@@ -68,7 +67,6 @@ namespace _01.Bombs
                     default:
                         casing.Push(casing.Pop() - 5);
                         break;
-
                 }
             }
 
@@ -103,8 +101,6 @@ namespace _01.Bombs
             {
                 Console.WriteLine($"{key}: {value}");
             }
-
-
         }
     }
 }
