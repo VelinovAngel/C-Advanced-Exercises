@@ -6,8 +6,9 @@ namespace _08.Threeuple
     {
         static void Main(string[] args)
         {
+
             string[] tokensPerson = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                .Split();
             //{first name} {last name} {address} {town}
 
             string firstNameAndLastName = $"{tokensPerson[0]} {tokensPerson[1]}";
@@ -26,28 +27,19 @@ namespace _08.Threeuple
 
             Threeuple<string, string, string> personInfo = new Threeuple<string, string, string>(firstNameAndLastName, address, town);
 
-
             string[] tokensBeer = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                .Split();
             //{name} {liters of beer} {drunk or not}
 
             string name = tokensBeer[0];
             int litersOfBeer = int.Parse(tokensBeer[1]);
-            string drunkOrNot = tokensBeer[2];
-            bool isDrunk = true;
-            if (drunkOrNot == "drunk")
-            {
-                isDrunk = true;
-            }
-            else if (drunkOrNot == "not")
-            {
-                isDrunk = false;
-            }
+
+            bool isDrunk = tokensBeer[2] == "drunk" ? true : false;
 
             Threeuple<string, int, bool> infoBeer = new Threeuple<string, int, bool>(name, litersOfBeer, isDrunk);
 
             string[] tokensBank = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                .Split();
             //{name} {account balance} {bank name}
 
             string bankName = tokensBank[0];

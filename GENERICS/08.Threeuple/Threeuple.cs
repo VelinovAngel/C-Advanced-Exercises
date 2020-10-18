@@ -1,7 +1,7 @@
 ﻿using System;
 namespace _08.Threeuple
 {
-    public class Threeuple<TFirst,TSecond,TThird>
+    public class Threeuple<TFirst, TSecond, TThird>
     {
         public Threeuple(TFirst first, TSecond second, TThird third)
         {
@@ -21,4 +21,5 @@ namespace _08.Threeuple
             return $"{First} -> {Second} -> {Third}";
         }
     }
+
 }

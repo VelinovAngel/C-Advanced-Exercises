@@ -1,28 +1,29 @@
 ﻿using System;
 
-namespace _07.Tuple
+namespace Tuple
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string[] tokens = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] firstToken = Console.ReadLine()
+                .Split();
 
-            string personFullName = $"{tokens[0]} {tokens[1]}";
-            string personAdress = tokens[2];
+            string personFullName = $"{firstToken[0]} {firstToken[1]}";
+            string personAdress = firstToken[2];
 
             Tuple<string, string> personInfo = new Tuple<string, string>(personFullName, personAdress);
 
             string[] secondTokens = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                .Split();
 
             string personName = secondTokens[0];
             int beerLiters = int.Parse(secondTokens[1]);
 
-            Tuple<string, int> personBeerInfo = new Tuple<string, int>(personName, beerLiters);
+            Tuple<string, int> personBeerInfo = new Tuple<string, int>(personName,beerLiters);
 
             string[] thirdTokens = Console.ReadLine()
-                .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                .Split();
 
             int intValues = int.Parse(thirdTokens[0]);
             double doubleValue = double.Parse(thirdTokens[1]);

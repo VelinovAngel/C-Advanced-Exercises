@@ -1,5 +1,5 @@
 ﻿
-namespace _07.Tuple
+namespace Tuple
 {
     public class Tuple<TFirst, TSecond>
     {
