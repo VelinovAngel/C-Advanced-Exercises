@@ -26,7 +26,6 @@ namespace ComparingObjects
                 Person p = new Person(name, age, town);
 
                 people.Add(p);
-
             }
 
             int n = int.Parse(Console.ReadLine());
