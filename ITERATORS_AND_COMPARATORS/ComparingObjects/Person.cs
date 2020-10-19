@@ -29,7 +29,7 @@ namespace ComparingObjects
             if (other != null)
             {
                 //I start comparing
-                result = this.name.CompareTo(other.name);
+                result = other.name.CompareTo(this.name);
 
                 if (result == 0)
                 {
@@ -37,12 +37,12 @@ namespace ComparingObjects
                     //They are equal -> 0
                     //Other is first -> -1
 
-                    result = this.age.CompareTo(other.age);
+                    result = other.age.CompareTo(this.age);
 
                     //I start comparing
                     if (result == 0)
                     {
-                        result = this.town.CompareTo(other.town);
+                        result = other.town.CompareTo(this.town);
                     }
 
                 }
