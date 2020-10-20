@@ -43,27 +43,15 @@ namespace Parking
         public Car GetLatestCar()
         {
             Car car = cars.FirstOrDefault(x => x.Year == cars.Max(x => x.Year));
-            if (car == null)
-            {
-                return null;
-            }
-            else
-            {
-                return car;
-            }
+
+            return car;
         }
 
         public Car GetCar(string manufacturer, string model)
         {
             Car car = cars.FirstOrDefault(x => x.Manufacturer == manufacturer && x.Model == model);
-            if (car == null)
-            {
-                return null;
-            }
-            else
-            {
-                return car;
-            }
+
+            return car;
         }
 
         public string GetStatistics()
