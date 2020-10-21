@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Snake", "02.Snake\02.Sna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Lootbox", "01.Lootbox\01.Lootbox.csproj", "{1346934C-8B38-41DA-B898-EF19E5DB1016}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Re-Volt", "02.Re-Volt\02.Re-Volt.csproj", "{4CFC4750-D4AF-43CA-A290-0D178BD9E252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ClubParty", "01.ClubParty\01.ClubParty.csproj", "{73BE9FA8-125D-45C6-999F-EA04EED28AD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +71,13 @@ Global
 		{1346934C-8B38-41DA-B898-EF19E5DB1016}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1346934C-8B38-41DA-B898-EF19E5DB1016}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1346934C-8B38-41DA-B898-EF19E5DB1016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFC4750-D4AF-43CA-A290-0D178BD9E252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC4750-D4AF-43CA-A290-0D178BD9E252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC4750-D4AF-43CA-A290-0D178BD9E252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC4750-D4AF-43CA-A290-0D178BD9E252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BE9FA8-125D-45C6-999F-EA04EED28AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BE9FA8-125D-45C6-999F-EA04EED28AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BE9FA8-125D-45C6-999F-EA04EED28AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BE9FA8-125D-45C6-999F-EA04EED28AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
