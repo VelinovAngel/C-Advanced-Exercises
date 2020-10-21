@@ -2,7 +2,7 @@
 
 namespace _02.Re_Volt
 {
-    class Program
+    public class Program
     {
         public class Position
         {
@@ -27,6 +27,52 @@ namespace _02.Re_Volt
                     return false;
                 }
                 return true;
+            }
+
+            public void CheckOtherSideMovement(int rowCount, int colCount)
+            {
+
+                if (Row < 0)
+                {
+                    Row = rowCount - 1; 
+                }
+                if (Col < 0)
+                {
+                    Col = colCount - 1;
+                }
+                if (Row >= rowCount)
+                {
+                    Row = 0;
+                }
+                if (Col >= colCount)
+                {
+                    Col = 0;
+                }
+            }
+
+            public static Position GetDirection(string command)
+            {
+                int row = 0;
+                int col = 0;
+
+                if (command == "left")
+                {
+                    col = -1;
+                }
+                if (command == "right")
+                {
+                    col = 1;
+                }
+                if (command == "up")
+                {
+                    row = -1;
+                }
+                if (command == "down")
+                {
+                    row = 1;
+                }
+
+                return new Position(row, col);
             }
         }
 
@@ -56,7 +102,7 @@ namespace _02.Re_Volt
 
                 while (matrix[player.Row, player.Col] == 'T')
                 {
-                    Position direction = GetDirection(command);
+                    Position direction = Position.GetDirection(command);
                     player.Row += direction.Row * -1;
                     player.Col += direction.Col * -1;
                 }
@@ -74,73 +120,53 @@ namespace _02.Re_Volt
             matrix[player.Row, player.Col] = 'f';
             PrintMatrix(matrix);
 
-
-        }
-
-        static Position GetDirection(string command)
-        {
-            int row = 0;
-            int col = 0;
-
-            if (command == "left")
-            {
-                col = -1;
-            }
-            if (command == "right")
-            {
-                col = 1;
-            }
-            if (command == "up")
-            {
-                row = -1;
-            }
-            if (command == "down")
-            {
-                row = 1;
-            }
-
-            return new Position(row, col);
         }
 
         static Position MovePlayer(Position player, string command, int n)
         {
-            if (command == "left")
-            {
-                player.Col--;
-                if (!player.IsSafe(n, n))
-                {
-                    player.Col = n - 1;
-                }
-            }
-            if (command == "right")
-            {
-                player.Col++;
-                if (!player.IsSafe(n, n))
-                {
-                    player.Col = 0;
-                }
-            }
-            if (command == "up")
-            {
-                player.Row--;
-                if (!player.IsSafe(n, n))
-                {
-                    player.Row = n - 1;
-                }
-            }
-            if (command == "down")
-            {
-                player.Row++;
-                if (!player.IsSafe(n, n))
-                {
-                    player.Row = 0;
-                }
-            }
+
+            Position movement = Position.GetDirection(command);
+            player.Row += movement.Row;
+            player.Col += movement.Col;
+            player.CheckOtherSideMovement(n, n);
+
+            //if (command == "left")
+            //{
+            //    player.Col--;
+            //    if (!player.IsSafe(n, n))
+            //    {
+            //        player.Col = n - 1;
+            //    }
+            //}
+            //if (command == "right")
+            //{
+            //    player.Col++;
+            //    if (!player.IsSafe(n, n))
+            //    {
+            //        player.Col = 0;
+            //    }
+            //}
+            //if (command == "up")
+            //{
+            //    player.Row--;
+            //    if (!player.IsSafe(n, n))
+            //    {
+            //        player.Row = n - 1;
+            //    }
+            //}
+            //if (command == "down")
+            //{
+            //    player.Row++;
+            //    if (!player.IsSafe(n, n))
+            //    {
+            //        player.Row = 0;
+            //    }
+            //}
 
             return player;
         }
 
-        static void PrintMatrix(char[,] matrix)
+        private static void PrintMatrix(char[,] matrix)
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
@@ -152,16 +178,15 @@ namespace _02.Re_Volt
             }
         }
 
-        static void ReadMatrix(char[,] matrix)
+        private static void ReadMatrix(char[,] matrix)
         {
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                char[] currentRow = Console.ReadLine()
-                    .ToCharArray();
+                string line = Console.ReadLine();
 
-                for (int col = 0; col < matrix.GetLength(1); col++)
+                for (int col = 0; col < line.Length; col++)
                 {
-                    matrix[row, col] = currentRow[col];
+                    matrix[row, col] = line[col];
 
                 }
             }
