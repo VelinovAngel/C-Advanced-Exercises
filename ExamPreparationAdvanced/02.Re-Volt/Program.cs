@@ -42,7 +42,6 @@ namespace _02.Re_Volt
             if (commands > 0)
             {
                 matrix[player.Row, player.Col] = '-';
-
             }
 
             for (int i = 0; i < commands; i++)
