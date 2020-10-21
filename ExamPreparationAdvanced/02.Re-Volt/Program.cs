@@ -28,7 +28,6 @@ namespace _02.Re_Volt
                 }
                 return true;
             }
-
         }
 
         static void Main(string[] args)
