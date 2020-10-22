@@ -38,19 +38,13 @@ namespace _01.SantasPresentFactory
 
             Stack<int> stack = new Stack<int>(materials);
             Queue<int> queue = new Queue<int>(magicLevel);
+            bool isNotFound = true;
 
             while (stack.Count > 0 && queue.Count > 0)
             {
                 int materialElement = stack.Peek();
                 int magicMaterial = queue.Peek();
                 int product = materialElement * magicMaterial;
-
-                if ((box["Doll"] == 1 && box["Wooden train"] == 1) ||
-                    (box["Teddy bear"] == 1 && box["Bicycle"] == 1))
-                {
-                    Console.WriteLine("The presents are crafted! Merry Christmas!");
-                    break;
-                }
 
                 switch (product)
                 {
@@ -87,14 +81,33 @@ namespace _01.SantasPresentFactory
                             queue.Dequeue();
                             stack.Push(stack.Pop() + 15);
                         }
-                        else if (product == 0)
+
+                        if (magicMaterial == 0)
+                        {
+                            queue.Dequeue();
+                        }
+                        else if (materialElement == 0)
                         {
                             stack.Pop();
-                            queue.Dequeue();
                         }
                         break;
                 }
             }
+            if (box["Doll"] > 0 && box["Wooden train"] > 0)
+            {
+                Console.WriteLine("The presents are crafted! Merry Christmas!");
+                isNotFound = false;
+            }
+            else if (box["Teddy bear"] > 0 && box["Bicycle"] > 0)
+            {
+                Console.WriteLine("The presents are crafted! Merry Christmas!");
+                isNotFound = false;
+            }
+            if (isNotFound)
+            {
+                Console.WriteLine("No presents this Christmas!");
+            }
+
 
             if (stack.Count > 0)
             {
@@ -108,7 +121,10 @@ namespace _01.SantasPresentFactory
 
             foreach (var (key, value) in box.OrderBy(x => x.Key))
             {
-                Console.WriteLine($"{key}: {value}");
+                if (value > 0)
+                {
+                    Console.WriteLine($"{key}: {value}");
+                }
             }
 
         }
