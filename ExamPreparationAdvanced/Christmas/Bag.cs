@@ -34,7 +34,8 @@ namespace Christmas
 
         public bool Remove(string name)
         {
-            return presents.Remove(presents.FirstOrDefault(x => x.Name == name));
+            Present present = presents.FirstOrDefault(x => x.Name == name);
+            return presents.Remove(present);
         }
 
         public Present GetHeaviestPresent()
