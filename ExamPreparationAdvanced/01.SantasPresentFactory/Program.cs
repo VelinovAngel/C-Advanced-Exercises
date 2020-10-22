@@ -117,7 +117,6 @@ namespace _01.SantasPresentFactory
 
             }
 
-
             if (stack.Count > 0)
             {
                 Console.WriteLine($"Materials left: {string.Join(", ", stack)}");
