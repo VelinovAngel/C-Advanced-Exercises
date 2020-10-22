@@ -43,7 +43,7 @@ namespace _01.SantasPresentFactory
             {
                 int materialElement = stack.Peek();
                 int magicMaterial = queue.Peek();
-                int product = magicMaterial * magicMaterial;
+                int product = materialElement * magicMaterial;
 
                 if ((box["Doll"] == 1 && box["Wooden train"] == 1) ||
                     (box["Teddy bear"] == 1 && box["Bicycle"] == 1))
@@ -92,7 +92,6 @@ namespace _01.SantasPresentFactory
                             stack.Pop();
                             queue.Dequeue();
                         }
-
                         break;
                 }
             }
@@ -104,10 +103,10 @@ namespace _01.SantasPresentFactory
 
             if (queue.Count > 0)
             {
-                Console.WriteLine($"Magic left: {string.Join(", ",queue)}");
+                Console.WriteLine($"Magic left: {string.Join(", ", queue)}");
             }
 
-            foreach (var (key,value) in box.OrderBy(x=>x.Key))
+            foreach (var (key, value) in box.OrderBy(x => x.Key))
             {
                 Console.WriteLine($"{key}: {value}");
             }
