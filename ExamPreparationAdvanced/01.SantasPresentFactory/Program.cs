@@ -82,17 +82,24 @@ namespace _01.SantasPresentFactory
                             stack.Push(stack.Pop() + 15);
                         }
 
-                        if (magicMaterial == 0)
+                        if (magicMaterial == 0 || materialElement == 0)
                         {
-                            queue.Dequeue();
-                        }
-                        else if (materialElement == 0)
-                        {
-                            stack.Pop();
+                            if (magicMaterial == 0)
+                            {
+                                queue.Dequeue();
+                            }
+
+                            if (materialElement == 0)
+                            {
+                                stack.Pop();
+                            }
+                            continue;
+
                         }
                         break;
                 }
             }
+
             if (box["Doll"] > 0 && box["Wooden train"] > 0)
             {
                 Console.WriteLine("The presents are crafted! Merry Christmas!");
@@ -103,9 +110,11 @@ namespace _01.SantasPresentFactory
                 Console.WriteLine("The presents are crafted! Merry Christmas!");
                 isNotFound = false;
             }
+
             if (isNotFound)
             {
                 Console.WriteLine("No presents this Christmas!");
+
             }
 
 
