@@ -62,8 +62,8 @@ namespace Rabbits
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("Rabbits available at {cageName}:");
-            foreach (var rabbit in rabbits.Select(x=>x.Available != false))
+            sb.AppendLine($"Rabbits available at {Name}:");
+            foreach (var rabbit in rabbits.Where(x=>x.Available != false))
             {
                 sb.AppendLine($"{rabbit}");
             }
