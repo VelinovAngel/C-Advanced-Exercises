@@ -15,9 +15,9 @@ namespace _02.PresentDelivery
 
             int santaRow = 0;
             int santaCol = 0;
-
             int countKids = 0;
 
+            bool hasPresents = false;
 
             ReadMatrix(matrix, ref santaRow, ref santaCol, ref countKids);
 
@@ -59,14 +59,11 @@ namespace _02.PresentDelivery
                     kidsNice++;
                     if (countPresents == 0)
                     {
-                        matrix[santaRow, santaCol] = 'S';
-                        Console.WriteLine("Santa ran out of presents!");
+                        hasPresents = true;
                         isFinished = true;
                         break;
                     }
                     isFinished = true;
-
-
                 }
 
                 if (matrix[santaRow, santaCol] == 'C')
@@ -85,12 +82,10 @@ namespace _02.PresentDelivery
                         }
                         if (countPresents == 0)
                         {
-                            matrix[santaRow, santaCol] = 'S';
-                            Console.WriteLine("Santa ran out of presents!");
+                            hasPresents = true;
                             isFinished = true;
                             break;
                         }
-
                     }
                     if (matrix[santaRow + 1, santaCol] != '-')
                     {
@@ -106,8 +101,7 @@ namespace _02.PresentDelivery
                         }
                         if (countPresents == 0)
                         {
-                            matrix[santaRow, santaCol] = 'S';
-                            Console.WriteLine("Santa ran out of presents!");
+                            hasPresents = true;
                             isFinished = true;
                             break;
                         }
@@ -126,8 +120,7 @@ namespace _02.PresentDelivery
                         }
                         if (countPresents == 0)
                         {
-                            matrix[santaRow, santaCol] = 'S';
-                            Console.WriteLine("Santa ran out of presents!");
+                            hasPresents = true;
                             isFinished = true;
                             break;
                         }
@@ -146,8 +139,7 @@ namespace _02.PresentDelivery
                         }
                         if (countPresents == 0)
                         {
-                            matrix[santaRow, santaCol] = 'S';
-                            Console.WriteLine("Santa ran out of presents!");
+                            hasPresents = true;
                             isFinished = true;
                             break;
                         }
@@ -163,6 +155,13 @@ namespace _02.PresentDelivery
                 //}
                 //PrintMatrix(matrix);
             }
+
+            if (hasPresents)
+            {
+                matrix[santaRow, santaCol] = 'S';
+                Console.WriteLine("Santa ran out of presents!");
+            }
+
             PrintMatrix(matrix);
 
             if (isFinished)
