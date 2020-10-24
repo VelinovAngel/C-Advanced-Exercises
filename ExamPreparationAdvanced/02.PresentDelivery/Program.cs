@@ -68,6 +68,7 @@ namespace _02.PresentDelivery
 
                 if (matrix[santaRow, santaCol] == 'C')
                 {
+                    matrix[santaRow, santaCol] = 'S';
                     if (matrix[santaRow - 1, santaCol] != '-')
                     {
                         countPresents--;
@@ -116,7 +117,7 @@ namespace _02.PresentDelivery
                         }
                         else
                         {
-                            matrix[santaRow, santaCol -1] = '-';
+                            matrix[santaRow, santaCol - 1] = '-';
                         }
                         if (countPresents == 0)
                         {
@@ -158,7 +159,7 @@ namespace _02.PresentDelivery
 
             if (hasPresents)
             {
-                matrix[santaRow, santaCol] = 'S';
+                //matrix[santaRow, santaCol] = 'S';
                 Console.WriteLine("Santa ran out of presents!");
             }
 
