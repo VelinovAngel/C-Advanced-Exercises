@@ -34,7 +34,7 @@ namespace _02.BookWorm
             string input = string.Empty;
             while ((input = Console.ReadLine()) != "end")
             {
-                matrix[playerCol, playerRow] = '-';
+                matrix[playerRow, playerCol] = '-';
                 switch (input)
                 {
                     case "up":
@@ -51,21 +51,37 @@ namespace _02.BookWorm
                         break;
                 }
 
-                if (playerCol > size - 1 || playerCol < 0 || playerRow < 0 || playerRow > size - 1)
+                if (playerCol > size - 1)
                 {
-                    initialString.Remove(initialString.Length - 2, 1);
+                    initialString.Remove(initialString.Length - 1, 1);
+                    playerCol = size - 1;
+                }
+                if (playerCol < 0)
+                {
+                    initialString.Remove(initialString.Length - 1, 1);
+                    playerCol = 0;
+                }
+                if (playerRow < 0)
+                {
+                    initialString.Remove(initialString.Length - 1, 1);
+                    playerRow = 0;
+                }
+                if (playerRow > size - 1)
+                {
+                    initialString.Remove(initialString.Length - 1, 1);
+                    playerRow = size - 1;
                 }
 
                 if (char.IsLetter(matrix[playerRow, playerCol]))
                 {
 
                     initialString.Append(matrix[playerRow, playerCol].ToString());
-                    matrix[playerCol, playerRow] = '-';
+                    matrix[playerRow, playerCol] = 'P';
                 }
             }
-
-            PrintMatrix(matrix);
             Console.WriteLine(initialString.ToString().TrimEnd());
+            matrix[playerRow, playerCol] = 'P';
+            PrintMatrix(matrix);
 
         }
 
