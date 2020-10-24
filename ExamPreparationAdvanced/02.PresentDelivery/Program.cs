@@ -159,7 +159,7 @@ namespace _02.PresentDelivery
 
             if (hasPresents)
             {
-                //matrix[santaRow, santaCol] = 'S';
+                matrix[santaRow, santaCol] = 'S';
                 Console.WriteLine("Santa ran out of presents!");
             }
 
