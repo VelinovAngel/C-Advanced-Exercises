@@ -8,12 +8,12 @@ namespace _1.DatingApp
     {
         static void Main(string[] args)
         {
-            int[] female = Console.ReadLine()
+            int[] male = Console.ReadLine()
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
-            int[] male = Console.ReadLine()
+            int[] female = Console.ReadLine()
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
