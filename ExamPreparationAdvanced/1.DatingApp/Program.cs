@@ -27,19 +27,6 @@ namespace _1.DatingApp
             {
                 int femaleValue = queue.Peek();
                 int maleValue = stack.Peek();
-
-                if (femaleValue == maleValue)
-                {
-                    queue.Dequeue();
-                    stack.Pop();
-                    matched++;
-                }
-                else
-                {
-                    queue.Dequeue();
-                    stack.Push(stack.Pop() - 2);
-                }
-
                 if (femaleValue <= 0 || maleValue <= 0)
                 {
                     if (femaleValue <= 0)
@@ -50,6 +37,7 @@ namespace _1.DatingApp
                     {
                         stack.Pop();
                     }
+                    continue;
                 }
 
                 if (femaleValue % 25 == 0 || maleValue % 25 == 0)
@@ -64,6 +52,19 @@ namespace _1.DatingApp
                         stack.Pop();
                         stack.Pop();
                     }
+                    continue;
+                }
+
+                if (femaleValue == maleValue)
+                {
+                    queue.Dequeue();
+                    stack.Pop();
+                    matched++;
+                }
+                else
+                {
+                    queue.Dequeue();
+                    stack.Push(stack.Pop() - 2);
                 }
             }
 
@@ -84,7 +85,7 @@ namespace _1.DatingApp
             }
             else
             {
-                Console.WriteLine($"Females left: {string.Join(", ",queue)}");
+                Console.WriteLine($"Females left: {string.Join(", ", queue)}");
             }
         }
     }
