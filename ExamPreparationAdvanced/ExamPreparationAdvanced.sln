@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DatingApp", "1.DatingApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbits", "Rabbits\Rabbits.csproj", "{1FC3BAEA-18EA-47E9-B9FD-FFE6A6CAF71A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BookWorm", "02.BookWorm\02.BookWorm.csproj", "{BE99C626-EED7-443F-A9B2-CB66B41C64D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,5 +117,9 @@ Global
 		{1FC3BAEA-18EA-47E9-B9FD-FFE6A6CAF71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC3BAEA-18EA-47E9-B9FD-FFE6A6CAF71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC3BAEA-18EA-47E9-B9FD-FFE6A6CAF71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE99C626-EED7-443F-A9B2-CB66B41C64D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE99C626-EED7-443F-A9B2-CB66B41C64D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE99C626-EED7-443F-A9B2-CB66B41C64D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE99C626-EED7-443F-A9B2-CB66B41C64D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
