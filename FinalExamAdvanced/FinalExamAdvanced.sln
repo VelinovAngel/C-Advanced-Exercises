@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Scheduling", "01.Scheduling\01.Scheduling.csproj", "{6ABDAD5D-B51B-4454-AD76-CDBC63D9BD2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Garden", "02.Garden\02.Garden.csproj", "{05FF683D-CD04-4B20-B224-BE99AD6DF948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomProject", "03.Classroom\ClassroomProject.csproj", "{0E9E1A02-D17A-45C7-90A4-EE601529C509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ABDAD5D-B51B-4454-AD76-CDBC63D9BD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABDAD5D-B51B-4454-AD76-CDBC63D9BD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABDAD5D-B51B-4454-AD76-CDBC63D9BD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABDAD5D-B51B-4454-AD76-CDBC63D9BD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FF683D-CD04-4B20-B224-BE99AD6DF948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FF683D-CD04-4B20-B224-BE99AD6DF948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FF683D-CD04-4B20-B224-BE99AD6DF948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FF683D-CD04-4B20-B224-BE99AD6DF948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9E1A02-D17A-45C7-90A4-EE601529C509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9E1A02-D17A-45C7-90A4-EE601529C509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9E1A02-D17A-45C7-90A4-EE601529C509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9E1A02-D17A-45C7-90A4-EE601529C509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/bin/Debug/netcoreapp3.1/Classroom.deps.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/bin/Debug/netcoreapp3.1/Classroom.runtimeconfig.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/bin/Debug/netcoreapp3.1/Classroom.runtimeconfig.dev.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/bin/Debug/netcoreapp3.1/Classroom.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/bin/Debug/netcoreapp3.1/Classroom.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.AssemblyInfo.cs
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/ExamPreparationAdvanced/Classroom/obj/Debug/netcoreapp3.1/Classroom.genruntimeconfig.cache
