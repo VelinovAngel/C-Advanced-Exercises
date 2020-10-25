@@ -1,0 +1,12 @@
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/bin/Debug/netcoreapp3.1/01.Scheduling.deps.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/bin/Debug/netcoreapp3.1/01.Scheduling.runtimeconfig.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/bin/Debug/netcoreapp3.1/01.Scheduling.runtimeconfig.dev.json
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/bin/Debug/netcoreapp3.1/01.Scheduling.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/bin/Debug/netcoreapp3.1/01.Scheduling.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.csprojAssemblyReference.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.AssemblyInfoInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.AssemblyInfo.cs
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.csproj.CoreCompileInputs.cache
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.dll
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.pdb
+/Users/pLazZma/Projects/C-Advanced-Exercises/C-Advanced-Exercises/FinalExamAdvanced/01.Scheduling/obj/Debug/netcoreapp3.1/01.Scheduling.genruntimeconfig.cache

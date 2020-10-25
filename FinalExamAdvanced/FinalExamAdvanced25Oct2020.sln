@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Scheduling", "01.Scheduling\01.Scheduling.csproj", "{FE156952-89B1-496D-8ADA-1365CA95AD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Garden", "02.Garden\02.Garden.csproj", "{59A3E20B-7EBF-455E-8E36-6798FD3A79D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassroomProject", "03.Classroom\ClassroomProject.csproj", "{DF83B13E-DCB1-42F4-9DC6-8D9C25C8A7D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE156952-89B1-496D-8ADA-1365CA95AD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE156952-89B1-496D-8ADA-1365CA95AD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE156952-89B1-496D-8ADA-1365CA95AD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE156952-89B1-496D-8ADA-1365CA95AD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A3E20B-7EBF-455E-8E36-6798FD3A79D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A3E20B-7EBF-455E-8E36-6798FD3A79D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A3E20B-7EBF-455E-8E36-6798FD3A79D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A3E20B-7EBF-455E-8E36-6798FD3A79D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF83B13E-DCB1-42F4-9DC6-8D9C25C8A7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF83B13E-DCB1-42F4-9DC6-8D9C25C8A7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF83B13E-DCB1-42F4-9DC6-8D9C25C8A7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF83B13E-DCB1-42F4-9DC6-8D9C25C8A7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
